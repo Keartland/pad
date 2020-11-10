@@ -1,0 +1,22 @@
+{
+  "name": "pad",
+  "version": "1.0.0",
+  "description": "This is going to be a collaborative notepad. It will be built in NodeJS and Websocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keartland/pad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keartland/pad/issues"
+  },
+  "homepage": "https://github.com/Keartland/pad#readme",
+  "dependencies": {
+    "ws": "^7.4.0"
+  }
+}

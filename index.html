@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Collaberative Notepad</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="gutter"></div>
+            <textarea placeholder="Start writing..." id="editor"></textarea>
+        </div>
+        </div>
+        <!-- <script src="client.js"></script>-->
+        <script src="lineNums.js"></script>
+    </body>
+    <style>
+body{
+    margin:0;
+}
+#container{
+    display:flex;
+    flex-direction:row;
+}
+#gutter{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+#editor {
+    margin-top:0px;
+    height:auto;
+    resize: none; 
+    overflow: hidden;
+    font: inherit;
+    border:0;
+    outline: none;
+    flex-grow:1;
+}
+    </style>
+</html>
